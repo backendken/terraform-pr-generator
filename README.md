@@ -49,7 +49,7 @@ terraform-pr-generator s3_malware_protection --output my-plans-dir
 
 ### Standard Workflow
 ```bash
-cd /Users/kenspatta/dev/elon-modules
+cd /Users/user/dev/elon-modules
 terraform-pr-generator s3_malware_protection --verbose
 ```
 
@@ -198,16 +198,6 @@ terraform-pr-generator/
 | **Memory Usage** | ~50MB | ~10MB |
 | **Maintainability** | Complex bash | Clean Go code |
 
-## 🎯 Go Language Features Demonstrated
-
-- **CLI with Cobra** - Professional command-line interface
-- **Concurrency** - Goroutines and WaitGroups for parallel execution
-- **File I/O** - Reading/writing files and parsing command output
-- **Regex Processing** - Pattern matching for environment/region extraction
-- **Error Handling** - Proper error propagation and user feedback
-- **Package Management** - Go modules and dependencies
-- **Build Automation** - Makefiles and cross-compilation
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -219,9 +209,3 @@ terraform-pr-generator/
 ## 📝 License
 
 This project is licensed under the MIT License.
-
-## 🔗 Related Projects
-
-- [elon-modules](https://github.com/kitmanlabs/elon-modules) - Terraform modules
-- [elon](https://github.com/kitmanlabs/elon) - Infrastructure as Code
-- [kitman CLI](https://github.com/kitmanlabs/kitman) - DevOps automation tool
