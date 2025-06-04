@@ -1,6 +1,6 @@
 # Terraform PR Generator
 
-A powerful Go CLI tool to automate terraform plan generation for PR workflows. This tool replaces bash scripts with a more robust, cross-platform solution for generating terraform plans across multiple AWS environments and regions.
+A  Go CLI tool to automate terraform plan generation for PR workflows. This tool replaces bash scripts with a more robust, cross-platform solution for generating terraform plans across multiple AWS environments and regions.
 
 ## ✨ Features
 
